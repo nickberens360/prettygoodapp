@@ -1,3 +1,73 @@
+[class*='colspan-'] {
+  float: none;
+  left: auto;
+  margin-right: 0;
+  width: 100%;
+  margin-bottom: 3%; }
+
+.grid-row {
+  margin-bottom: 0; }
+
+.grid-row:last-of-type {
+  margin-bottom: 0; }
+
+@media (min-width: 700px) {
+  .grid-row {
+    margin-bottom: 3%; }
+
+  [class*='colspan-'] {
+    position: relative;
+    left: 1.5%;
+    float: left;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-right: 3%;
+    margin-bottom: 0; }
+
+  [class*='colspan-']:last-of-type {
+    margin-right: 0; }
+
+  .colspan-1 {
+    width: 5.33333%; }
+
+  .colspan-2 {
+    width: 13.66667%; }
+
+  .colspan-3 {
+    width: 22%; }
+
+  .colspan-4 {
+    width: 30.33333%; }
+
+  .colspan-5 {
+    width: 38.66667%; }
+
+  .colspan-6 {
+    width: 47%; }
+
+  .colspan-7 {
+    width: 55.33333%; }
+
+  .colspan-8 {
+    width: 63.66667%; }
+
+  .colspan-9 {
+    width: 72%; }
+
+  .colspan-10 {
+    width: 80.33333%; }
+
+  .colspan-11 {
+    width: 88.66667%; }
+
+  .colspan-12 {
+    width: 97%; }
+
+  .grid-row:after {
+    content: "";
+    display: table;
+    clear: both; } }
 html, body {
   height: 100%; }
 
