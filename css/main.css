@@ -3,7 +3,7 @@
   left: auto;
   margin-right: 0;
   width: 100%;
-  margin-bottom: 3%; }
+  margin-bottom: 0; }
 
 .grid-row {
   margin-bottom: 0; }
@@ -13,67 +13,87 @@
 
 @media (min-width: 700px) {
   .grid-row {
-    margin-bottom: 3%; }
+    margin-bottom: 0; }
 
   [class*='colspan-'] {
     position: relative;
-    left: 1.5%;
+    left: 0;
     float: left;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    margin-right: 3%;
+    margin-right: 0;
     margin-bottom: 0; }
 
   [class*='colspan-']:last-of-type {
     margin-right: 0; }
 
   .colspan-1 {
-    width: 5.33333%; }
+    width: 8.33333%; }
 
   .colspan-2 {
-    width: 13.66667%; }
+    width: 16.66667%; }
 
   .colspan-3 {
-    width: 22%; }
+    width: 25%; }
 
   .colspan-4 {
-    width: 30.33333%; }
+    width: 33.33333%; }
 
   .colspan-5 {
-    width: 38.66667%; }
+    width: 41.66667%; }
 
   .colspan-6 {
-    width: 47%; }
+    width: 50%; }
 
   .colspan-7 {
-    width: 55.33333%; }
+    width: 58.33333%; }
 
   .colspan-8 {
-    width: 63.66667%; }
+    width: 66.66667%; }
 
   .colspan-9 {
-    width: 72%; }
+    width: 75%; }
 
   .colspan-10 {
-    width: 80.33333%; }
+    width: 83.33333%; }
 
   .colspan-11 {
-    width: 88.66667%; }
+    width: 91.66667%; }
 
   .colspan-12 {
-    width: 97%; }
+    width: 100%; }
 
   .grid-row:after {
     content: "";
     display: table;
     clear: both; } }
+.about .grid-row {
+  height: 100%; }
+
+.paul, .nick {
+  height: 100%;
+  color: #fff; }
+
+.paul {
+  background: #fff;
+  color: #000; }
+
+.nick {
+  background: #000; }
+
+html {
+  background: url(../img/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
 html, body {
   height: 100%; }
 
 .h-100 {
   height: 100%;
-  background: red;
   display: table;
   width: 100%;
   overflow: hidden;
@@ -86,7 +106,10 @@ html, body {
   margin: 0 auto;
   text-align: center; }
 
-/* CSS Document */
+h1 {
+  font-size: 24px;
+  color: #fff; }
+
 html, body {
   padding: 0;
   margin: 0; }
